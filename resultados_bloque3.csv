@@ -1,0 +1,6 @@
+Variante,Accuracy,Recall (macro),F1 (macro),MAE,MSE
+Baseline (sin Kalman),0.9531,0.9535,0.9526,0.0632,0.0357
+"Kalman — Suavizado agresivo (σ²_w=0.0001, σ²_v=0.1)",0.5967,0.5631,0.5355,0.4810,0.2372
+"Kalman — Balanceado (σ²_w=0.01, σ²_v=0.01)",0.9514,0.9515,0.9508,0.2289,0.0797
+"Kalman — Seguimiento rápido (σ²_w=0.1, σ²_v=0.0001)",0.9531,0.9535,0.9526,0.0637,0.0356
+"Kalman — Suavizado moderado (σ²_w=0.001, σ²_v=0.05)",0.6902,0.6740,0.6745,0.4383,0.2063
